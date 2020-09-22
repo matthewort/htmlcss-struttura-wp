@@ -1,0 +1,16 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* pagina */
+#container {
+  width: 60%;
+  margin: 10px auto;
+  /* debug */
+  height: 200px;
+  background-color: blue;
+  /* fine debug */
+}
