@@ -44,7 +44,7 @@ main {
 }
 
 /* struttura a sinistra */
-aside {
+#aside-left {
   float: left;
   width: 27%;
   margin: auto;
@@ -53,8 +53,9 @@ aside {
   /* background-color: brown; */
   /* fine debug */
 }
-.pink-box {
-  height: 280px;
+
+.pink-box1 {
+  height: 400px;
   background-color: pink;
   margin-bottom: 20px;
 }
@@ -70,10 +71,27 @@ section {
   /* fine debug */
 }
 
+/* struttura a destra */
+#aside-right {
+  float: right;
+  width: 27%;
+  margin: auto;
+  /* debug */
+  height: 500px;
+  /* background-color: brown; */
+  /* fine debug */
+}
+
+.pink-box2 {
+  height: 280px;
+  background-color: pink;
+  margin-bottom: 20px;
+}
+
 /* parte sotto */
 footer {
   /* debug */
   height: 200px;
-  background-color: blue;
+  background-color: lightblue;
   /* fine debug */
 }
