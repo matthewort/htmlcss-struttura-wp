@@ -5,10 +5,72 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: black;
+}
 /* pagina */
 #container {
-  width: 60%;
-  margin: 10px auto;
+  width: 80%;
+  margin: 20px auto;
+  /* debug */
+  /* height: 200px;
+  background-color: blue; */
+  /* fine debug */
+}
+
+/* header */
+header {
+  /* debug */
+  height: 200px;
+  background-color: yellow;
+  margin-bottom: 20px;
+  /* fine debug */
+}
+
+/* parte centrale */
+main {
+  /* debug */
+  height: 800px;
+  background-color: transparent;
+  /* fine debug */
+}
+
+/* classe main */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* struttura a sinistra */
+aside {
+  float: left;
+  width: 20%;
+  margin: auto;
+  /* debug */
+  height: 500px;
+  background-color: brown;
+  /* fine debug */
+}
+.pink-box {
+  height: 200px;
+  background-color: pink;
+  margin-bottom: 20px;
+}
+
+/* struttura centrale */
+section {
+  float: left;
+  width: 40%;
+  margin: 0 5%;
+  /* debug */
+  height: 700px;
+  background-color: purple;
+  /* fine debug */
+}
+
+/* parte sotto */
+footer {
   /* debug */
   height: 200px;
   background-color: blue;
